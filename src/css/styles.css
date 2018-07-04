@@ -1,0 +1,124 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: rgba(165, 218, 205, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(165, 218, 205, 1) 0%,
+    rgba(165, 218, 205, 1) 50%,
+    rgba(251, 252, 253, 1) 50%,
+    rgba(251, 252, 253, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(165, 218, 205, 1)),
+    color-stop(50%, rgba(165, 218, 205, 1)),
+    color-stop(50%, rgba(251, 252, 253, 1)),
+    color-stop(100%, rgba(251, 252, 253, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(165, 218, 205, 1) 0%,
+    rgba(165, 218, 205, 1) 50%,
+    rgba(251, 252, 253, 1) 50%,
+    rgba(251, 252, 253, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(165, 218, 205, 1) 0%,
+    rgba(165, 218, 205, 1) 50%,
+    rgba(251, 252, 253, 1) 50%,
+    rgba(251, 252, 253, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(165, 218, 205, 1) 0%,
+    rgba(165, 218, 205, 1) 50%,
+    rgba(251, 252, 253, 1) 50%,
+    rgba(251, 252, 253, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(165, 218, 205, 1) 0%,
+    rgba(165, 218, 205, 1) 50%,
+    rgba(251, 252, 253, 1) 50%,
+    rgba(251, 252, 253, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5dacd', endColorstr='#fbfcfd', GradientType=0 );
+  background-position: top center;
+}
+
+#main {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+#slide1 {
+  height: 250px;
+  width: 150px;
+  position: absolute;
+  transform: translateX(0px) scale(1.5);
+  z-index: 99;
+  border: 2px solid gray;
+  transition: all 0.5s;
+}
+#slide2 {
+  height: 250px;
+  width: 150px;
+  position: absolute;
+  transform: translateX(-100px);
+  z-index: 9;
+  border: 2px solid gray;
+  transition: all 0.5s;
+}
+#slide3 {
+  height: 250px;
+  width: 150px;
+  position: absolute;
+  transform: translateX(100px);
+  z-index: 9;
+  border: 2px solid gray;
+  transition: all 0.5s;
+}
+#pre {
+  height: 30px;
+  width: 100px;
+  border: 2px solid gray;
+  font-family: arial;
+  font-size: 15px;
+  color: gray;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+#pre:hover {
+  cursor: pointer;
+}
+#nex {
+  height: 30px;
+  width: 100px;
+  border: 2px solid gray;
+  font-family: arial;
+  font-size: 15px;
+  color: gray;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}
+#nex:hover {
+  cursor: pointer;
+}
+
+.images {
+  height: 100%;
+  width: 100%;
+}
